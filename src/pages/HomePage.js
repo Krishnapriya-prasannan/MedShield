@@ -52,7 +52,7 @@ const Dashboard = () => {
       { title: "🛒 Purchase Register", link: "/purchase-register" }, // New
       { title: "📦 Stock Register", link: "/stock-register" }, // New
     ],
-    routeUser: [
+    rootuser: [
       { title: "✔️ Validate Complaints", link: "/validate-complaints" },
       { title: "📜 Generate Barcodes", link: "/generate-barcodes" },
       { title: "🏭 Issue Licenses", link: "/issue-licenses" },

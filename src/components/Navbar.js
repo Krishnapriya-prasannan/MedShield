@@ -102,7 +102,7 @@ const Navbar = () => {
                </>
               )}
 
-              {user.role === "route-user" && (
+              {user.role === "rootuser" && (
                 <>
                   <Button
                     color={isActive("/validate-complaints") ? "secondary" : "inherit"}

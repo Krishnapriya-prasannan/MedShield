@@ -63,7 +63,7 @@ const AuthPage = () => {
               <MenuItem value="user">User</MenuItem>
               <MenuItem value="doctor">Doctor</MenuItem>
               <MenuItem value="pharmacist">Pharmacist</MenuItem>
-              <MenuItem value="route_user">Route User (Authenticator)</MenuItem>
+              <MenuItem value="rootuser">Root User</MenuItem>
               <MenuItem value="manufacturer">Manufacturer</MenuItem>
               <MenuItem value="admin">Admin</MenuItem>
             </Select>

@@ -10,7 +10,7 @@ router.post('/signup', [
     body('name', 'Name is required').notEmpty(),
     body('email', 'Valid email is required').isEmail(),
     body('password', 'Password must be at least 6 characters').isLength({ min: 6 }),
-    body('role', 'Role is required').isIn(["user", "doctor", "pharmacist", "route-user", "manufacturer", "admin"])
+    body('role', 'Role is required').isIn(["user", "doctor", "pharmacist", "rootuser", "manufacturer", "admin"])
 ], async (req, res) => {
     const errors = validationResult(req);
     if (!errors.isEmpty()) {

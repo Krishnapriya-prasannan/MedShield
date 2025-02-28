@@ -73,7 +73,7 @@ const SignupPage = () => {
             <MenuItem value="user">User</MenuItem>
             <MenuItem value="doctor">Doctor</MenuItem>
             <MenuItem value="pharmacist">Pharmacist</MenuItem>
-            <MenuItem value="routeUser">Route User</MenuItem>
+            <MenuItem value="rootuser">Root User</MenuItem>
             <MenuItem value="manufacturer">Manufacturer</MenuItem>
             <MenuItem value="admin">Admin</MenuItem>
           </Select>
